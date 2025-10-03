@@ -15,7 +15,7 @@ venv\Scripts\activate
 pip install -r requirements.txt
 
 # Ensure Ollama is running
-ollama list \n
+ollama list  
 ollama pull llama3.2 (If you don't have a model, let's download a good one)
 
 # Run the generator
