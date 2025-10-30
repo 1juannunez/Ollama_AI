@@ -19,4 +19,4 @@ ollama list
 ollama pull llama3.2 (If you don't have a model, let's download a good one)
 
 # Run the generator
-python auto_onenote.py
+python Lumin_chatbox.py
