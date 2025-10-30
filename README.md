@@ -6,6 +6,7 @@ Setup Instructions
 git clone [repo]
 
 # Create a virtual environment
+cd [project]
 python -m venv venv
 
 # Activate it
