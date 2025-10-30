@@ -8,24 +8,24 @@ def generate_learning_outline(topic, model="llama3.2"):
     
     prompt = f"""Create a comprehensive learning guide for: "{topic}"
 
-Structure your response as a detailed outline with:
-- Main sections (use ## for section headers)
-- Subsections with specific topics (use ### for subsection headers)
-- Key points under each subsection (use bullet points)
-- Brief explanations for each point
+    Structure your response as a detailed outline with:
+    - Main sections (use ## for section headers)
+    - Subsections with specific topics (use ### for subsection headers)
+    - Key points under each subsection (use bullet points)
+    - Brief explanations for each point
 
-Make it practical and beginner-friendly. Include 4-6 main sections covering the topic from basics to intermediate level.
+    Make it practical and beginner-friendly. Include 4-6 main sections covering the topic from basics to intermediate level.
 
-Format example:
-## Section 1: Getting Started
-### What is [Topic]?
-- Key point 1
-- Key point 2
+    Format example:
+    ## Section 1: Getting Started
+    ### What is [Topic]?
+    - Key point 1
+    - Key point 2
 
-### Why Learn [Topic]?
-- Reason 1
-- Reason 2
-"""
+    ### Why Learn [Topic]?
+    - Reason 1
+    - Reason 2
+    """
 
     print(f"🤖 Generating learning guide for: {topic}")
     print(f"🦙 Using Ollama model: {model}")
